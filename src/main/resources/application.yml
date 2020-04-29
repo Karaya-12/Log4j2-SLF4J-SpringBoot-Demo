@@ -1,0 +1,11 @@
+# Custom Server Port: 8081
+server:
+  port: 8081
+
+# Spring Boot Configuration
+spring:
+  application:
+    name: Logging Framework Demo
+
+logging:
+  config: classpath:log4j2-spring.xml
